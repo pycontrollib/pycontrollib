@@ -7,10 +7,17 @@ This repository hosts an open source control systems library written in pure Pyt
 ## Getting Started
 
 To get started with the library, clone the repository and install any necessary dependencies:
+```
+$ git clone https://github.com/yourusername/pycontrollib.git
+$ cd pycontrollib
+$ conda env create -f environment.yml
+$ conda activate pycontrollib-dev
+```
 
-git clone https://github.com/yourusername/control-systems-library.git
-cd control-systems-library
-pip install -r requirements.txt
+To check if the setup was completed successfully, run the following file:
+```
+$ python tests/setup_test.py
+```
 
 ## Contributing
 We warmly welcome contributions from the community. Whether you're fixing bugs, improving documentation, or adding new features, your help is invaluable.
@@ -25,7 +32,12 @@ We warmly welcome contributions from the community. Whether you're fixing bugs, 
 6. __Push to Your Fork:__ `git push origin new-feature-branch`
 7. __Create a Pull Request:__ Go back to the original repository and click "New pull request."
 
+Please feel free to contact us if you have any questions, either by commenting on the issues or by emailing any of the members using the addresses provided in our profiles.
+
 ### Contribution Guidelines
+
+Follow the following contribution guidelines while making pull requests to help us maintain the code quality of this repository:
+
 * __Code Style:__ Please adhere to the coding standards of the project.
 * __Documentation:__ Ensure that your code is well-documented.
 * __Testing:__ Add tests for any new features or bug fixes.
